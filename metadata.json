@@ -1,0 +1,6 @@
+{
+  "name": "BreakMold",
+  "description": "Gamified AI Productivity, Dynamic Time-Blocking & Smart Adaptive Alarms",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

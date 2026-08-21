@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12151B"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Header: App Name & XP -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BreakMold"
+            android:textColor="#00F5D4"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_xp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1F2430"
+            android:paddingStart="8dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="2dp"
+            android:text="LVL 12 • 450 XP"
+            android:textColor="#B5179E"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Smart Alarm Bar -->
+    <LinearLayout
+        android:id="@+id/widget_alarm_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#1A1E27"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/widget_alarm_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06:30 AM"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_alarm_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Synced with 08:00 AM Kickoff"
+            android:textColor="#00F5D4"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Active Task Row -->
+    <LinearLayout
+        android:id="@+id/widget_task_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="#161922"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/widget_task_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="🎯 Morning Hydration"
+            android:textColor="#E2E8F0"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/widget_btn_complete_task"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="#22D3EE"
+            android:minWidth="48dp"
+            android:text="Done"
+            android:textColor="#0B0D14"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

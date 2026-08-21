@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Isometric Fractured Cube Neon Logo matching BreakMold concept -->
+    <!-- Top Face -->
+    <path
+        android:fillColor="#1500F5D4"
+        android:pathData="M54,26 L78,38 L54,50 L30,38 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F5D4"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,26 L54,42 M42,32 L66,44"
+        android:strokeWidth="2"
+        android:strokeColor="#00E5FF" />
+    <!-- Left Face with B styling -->
+    <path
+        android:fillColor="#2000B4D8"
+        android:pathData="M30,42 L52,53 L52,80 L30,68 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F5D4"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M36,49 L46,54 C49,55.5 49,60 46,61.5 L36,56.5 M36,56.5 L47,62 C50,63.5 50,68 47,69.5 L36,64"
+        android:strokeWidth="2.2"
+        android:strokeColor="#00F5D4"
+        android:strokeLineCap="round" />
+    <!-- Right Face with M styling -->
+    <path
+        android:fillColor="#25B5179E"
+        android:pathData="M56,53 L78,42 L78,68 L56,80 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#9D4EDD"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M60,72 L60,57 L67,65 L74,53 L74,68"
+        android:strokeWidth="2.2"
+        android:strokeColor="#E0AAFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Fracture shards -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M24,44 L27,41 L27,47 Z M82,45 L85,48 L80,50 Z M52,84 L56,87 L54,82 Z" />
+</vector>
